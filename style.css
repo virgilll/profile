@@ -1,0 +1,77 @@
+head {
+  display: none;
+}
+
+body {
+  background: #eef3f3;
+  color: #000000;
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+h1, h2, h3 {
+  font-family: 'Lora', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: black
+}
+
+#button:hover {
+  background-color: black;
+}
+
+#button {
+  background-color: #6B72E1;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+.container {
+  background: white;
+  padding: 12px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card {
+  background-color: rgb(185, 219, 216);
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 100px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: black;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i:hover {
+  color: black;
+}
